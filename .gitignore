@@ -3,6 +3,7 @@ gnore Visual Studio temporary files, build results, and
 
 # User-specific files
 *.suo
+**/*.suo
 *.user
 *.userosscache
 *.sln.docstates

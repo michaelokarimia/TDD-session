@@ -1,6 +1,6 @@
 namespace TDDSession
 {
-    public class BalanceManager
+    public class BankAccount
     {
         private int _balance;
 

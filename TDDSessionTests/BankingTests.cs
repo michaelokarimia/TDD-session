@@ -13,13 +13,15 @@ namespace TDDSessionTests
             int payerBalance =0;
             int payeeBalance = 0;
 
-            payerBalance = new BalanceManager().CreditBalance(payeeBalance, 100);
+            BankAccount payerAccount = new BankAccount();
+            payerBalance =  payerAccount.CreditBalance(payeeBalance, 100);
 
             int amount = 50;
 
-            payerBalance = new BalanceManager().CreditBalance(payerBalance, -amount);
+            payerBalance = payerAccount.CreditBalance(payerBalance, -amount);
 
-            payeeBalance = new BalanceManager().CreditBalance(payeeBalance, amount);
+            BankAccount payeeAccount = new BankAccount();
+            payeeBalance = payeeAccount.CreditBalance(payeeBalance, amount);
 
             Assert.AreEqual(50,payerBalance);
 
