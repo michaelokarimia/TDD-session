@@ -2,10 +2,13 @@ namespace TDDSession
 {
     public class BalanceManager
     {
-        public int CreditBalance(int payeeBalance, int amount)
+        private int _balance;
+
+        public int CreditBalance(int balance, int amount)
         {
-            payeeBalance += amount;
-            return payeeBalance;
+            _balance = balance;
+            _balance += amount;
+            return _balance;
         }
     }
 }
