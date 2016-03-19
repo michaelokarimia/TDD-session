@@ -1,7 +1,0 @@
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\bin\Debug\TDDSession.dll
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\bin\Debug\TDDSession.pdb
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\obj\Debug\TDDSession.csprojResolveAssemblyReference.cache
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\obj\Debug\TDDSession.dll
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\obj\Debug\TDDSession.pdb
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\bin\Debug\Moq.dll
-c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSession\bin\Debug\Moq.xml
