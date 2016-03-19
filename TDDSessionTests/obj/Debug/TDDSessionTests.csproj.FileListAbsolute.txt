@@ -1,0 +1,9 @@
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\bin\Debug\TDDSessionTests.dll
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\bin\Debug\TDDSessionTests.pdb
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\obj\Debug\TDDSessionTests.csprojResolveAssemblyReference.cache
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\obj\Debug\TDDSessionTests.dll
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\obj\Debug\TDDSessionTests.pdb
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\bin\Debug\nunit.framework.dll
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\bin\Debug\TDDSession.dll
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\bin\Debug\TDDSession.pdb
+c:\users\michael\documents\visual studio 2015\Projects\TDDSession\TDDSessionTests\bin\Debug\nunit.framework.xml
