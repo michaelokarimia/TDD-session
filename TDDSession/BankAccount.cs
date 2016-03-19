@@ -9,11 +9,17 @@ namespace TDDSession
             get { return _balance; }
         }
 
-        public int CreditBalance(int balance, int amount)
+        public int CreditBalance(int amount)
         {
-            _balance = balance;
             _balance += amount;
             return _balance;
+        }
+
+        public static void TransferFunds(BankAccount payerAccount, int amount, BankAccount payeeAccount)
+        {
+            payerAccount.CreditBalance(-amount);
+
+            payeeAccount.CreditBalance(amount);
         }
     }
 }

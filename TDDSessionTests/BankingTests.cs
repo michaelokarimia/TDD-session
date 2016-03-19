@@ -9,27 +9,20 @@ namespace TDDSessionTests
         [Test]
         public void TransferFundsFromPayerToPaye()
         {
-
-            int payerBalance;
-            int payeeBalance = 0;
-
             BankAccount payerAccount = new BankAccount();
             BankAccount payeeAccount = new BankAccount();
 
             int amount = 50;
 
 
-            payerBalance =  payerAccount.CreditBalance(payeeBalance, 100);
+            payerAccount.CreditBalance(100);
 
+            BankAccount.TransferFunds(payerAccount, amount, payeeAccount);
 
-            payerAccount.CreditBalance(payerBalance, -amount);
-
-            payeeAccount.CreditBalance(payeeBalance, amount);
 
             Assert.AreEqual(50, payerAccount.Balance);
 
             Assert.AreEqual(50, payeeAccount.Balance);
         }
-        
     }
 }
