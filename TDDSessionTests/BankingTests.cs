@@ -10,20 +10,26 @@ namespace TDDSessionTests
         public void TransferFundsFromPayerToPaye()
         {
 
-            int payerBalancer =0;
+            int payerBalance =0;
             int payeeBalance = 0;
-            
-            payerBalancer += 100;
+
+            payerBalance = CreditBalance(payeeBalance, 100);
 
             int amount = 50;
 
-            payerBalancer -= amount;
-            payeeBalance += amount;
+            payerBalance = CreditBalance(payerBalance, -amount);
 
-            Assert.AreEqual(50,payerBalancer);
+            payeeBalance = CreditBalance(payeeBalance, amount);
+
+            Assert.AreEqual(50,payerBalance);
 
             Assert.AreEqual(50, payeeBalance);
         }
 
+        private static int CreditBalance(int payeeBalance, int amount)
+        {
+            payeeBalance += amount;
+            return payeeBalance;
+        }
     }
 }
